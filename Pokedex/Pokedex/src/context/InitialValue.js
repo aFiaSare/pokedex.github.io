@@ -1,0 +1,46 @@
+export const InitialValue = {
+  value_req: 0,
+  min_value_req: 0,
+  max_value_req: 400,
+  //
+  front1: "",
+  id: "",
+  nombre: "",
+  hp: "",
+  attack: "",
+  defense: "",
+  special_attack: "",
+  special_defense: "",
+  speed: "",
+  front: "",
+  front2: "",
+  shiny: "",
+  front_default: "",
+  //
+  id_primary: "",
+  nombre_primary: "",
+  hp_primary: "",
+  attack_primary: "",
+  defense_primary: "",
+  special_attack_primary: "",
+  special_defense_primary: "",
+  speed_primary: "",
+  front_primary: "",
+  shiny_primary: "",
+  //
+  id_second: "",
+  nombre_second: "",
+  hp_second: "",
+  attack_second: "",
+  defense_second: "",
+  special_attack_second: "",
+  special_defense_second: "",
+  speed_second: "",
+  front_second: "",
+  shiny_second: "",
+  //
+  class_progress_bar:
+    "bg-blue-900 h-4 opacity-90 rounded-l-2xl animate-pulselow w-",
+  //
+  estado_modal: false,
+};
