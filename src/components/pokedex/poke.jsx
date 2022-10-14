@@ -8,6 +8,8 @@ import "../../Styles/estilo.css";
 import { ModalInfo } from "../modals/ModalInfo";
 import { ModalCargando } from "../modals/ModalCargando";
 
+//
+
 export const Poke = () => {
   const { store, dispatch } = useContext(StoreContext);
 
