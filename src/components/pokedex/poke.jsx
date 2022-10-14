@@ -66,7 +66,7 @@ export const Poke = () => {
                 console.log();
                 CustomDispatch(types.previous, -1);
               }}
-              src="../src/assets/imagenes/botonpokedex.png"
+              src="src/assets/imagenes/botonpokedex.png"
               alt=""
               className="h-20 w-24 hover:scale-125 duration-200 "
             />
@@ -74,7 +74,7 @@ export const Poke = () => {
           <div className="flex h-80 items-center justify-center col-span-2">
             <div className="flex items-center justify-center">
               <img
-                src="../src/assets/imagenes/IconoPokebola.png"
+                src="src/assets/imagenes/IconoPokebola.png"
                 alt=""
                 className="absolute w-36 h-36"
               />
@@ -150,7 +150,7 @@ export const Poke = () => {
           <div className="flex items-center justify-center col-span-2">
             <div className="flex items-center justify-center">
               <img
-                src="../src/assets/imagenes/IconoPokebola.png"
+                src="src/assets/imagenes/IconoPokebola.png"
                 alt=""
                 className="absolute w-36 h-36"
               />
@@ -176,7 +176,7 @@ export const Poke = () => {
               onClick={() => {
                 CustomDispatch(types.next, 1);
               }}
-              src="../src/assets/imagenes/botonpokedex.png"
+              src="src/assets/imagenes/botonpokedex.png"
               alt=""
               className="h-20 w-24 rotate-180 hover:scale-125 duration-200"
             />
